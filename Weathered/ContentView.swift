@@ -8,12 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var input: String = ""
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            TextField("Enter City", text: $input)
+                .font(.title)
+            
+            Divider()
+            
+            Text(input)
+                .font(.body)
         }
         .padding()
     }
