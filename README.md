@@ -1,2 +1,2 @@
-# POP_Weather_App
-Protocol Oriented Weather App using MVVM with SwiftUI
+# Weathered
+Weather App using POP, MVVM, a networking layer, and built using SwiftUI
