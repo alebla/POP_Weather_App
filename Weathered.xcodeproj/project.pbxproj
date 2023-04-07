@@ -15,6 +15,7 @@
 		20C89F5E29DF6D3800335F1A /* OpenWeatherMapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C89F5D29DF6D3800335F1A /* OpenWeatherMapController.swift */; };
 		20C89F6029DF70C900335F1A /* OpenWeatherMapData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C89F5F29DF70C900335F1A /* OpenWeatherMapData.swift */; };
 		20C89F6629DF9FDC00335F1A /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C89F6529DF9FDC00335F1A /* API.swift */; };
+		20C89F6829DFA0C500335F1A /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C89F6729DFA0C500335F1A /* Endpoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		20C89F5F29DF70C900335F1A /* OpenWeatherMapData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherMapData.swift; sourceTree = "<group>"; };
 		20C89F6129DF740700335F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		20C89F6529DF9FDC00335F1A /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		20C89F6729DFA0C500335F1A /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				20C89F4D29DF573A00335F1A /* ContentView.swift */,
 				20C89F5D29DF6D3800335F1A /* OpenWeatherMapController.swift */,
 				20C89F6529DF9FDC00335F1A /* API.swift */,
+				20C89F6729DFA0C500335F1A /* Endpoint.swift */,
 				20C89F4F29DF573B00335F1A /* Assets.xcassets */,
 				20C89F5129DF573B00335F1A /* Preview Content */,
 			);
@@ -159,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20C89F6829DFA0C500335F1A /* Endpoint.swift in Sources */,
 				20C89F5E29DF6D3800335F1A /* OpenWeatherMapController.swift in Sources */,
 				20C89F5C29DF6C0800335F1A /* WebServiceController.swift in Sources */,
 				20C89F4E29DF573A00335F1A /* ContentView.swift in Sources */,
