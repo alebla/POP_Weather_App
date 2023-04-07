@@ -14,6 +14,7 @@
 		20C89F5C29DF6C0800335F1A /* WebServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C89F5B29DF6C0800335F1A /* WebServiceController.swift */; };
 		20C89F5E29DF6D3800335F1A /* OpenWeatherMapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C89F5D29DF6D3800335F1A /* OpenWeatherMapController.swift */; };
 		20C89F6029DF70C900335F1A /* OpenWeatherMapData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C89F5F29DF70C900335F1A /* OpenWeatherMapData.swift */; };
+		20C89F6629DF9FDC00335F1A /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C89F6529DF9FDC00335F1A /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		20C89F5D29DF6D3800335F1A /* OpenWeatherMapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherMapController.swift; sourceTree = "<group>"; };
 		20C89F5F29DF70C900335F1A /* OpenWeatherMapData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherMapData.swift; sourceTree = "<group>"; };
 		20C89F6129DF740700335F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		20C89F6529DF9FDC00335F1A /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				20C89F4B29DF573A00335F1A /* WeatheredApp.swift */,
 				20C89F4D29DF573A00335F1A /* ContentView.swift */,
 				20C89F5D29DF6D3800335F1A /* OpenWeatherMapController.swift */,
+				20C89F6529DF9FDC00335F1A /* API.swift */,
 				20C89F4F29DF573B00335F1A /* Assets.xcassets */,
 				20C89F5129DF573B00335F1A /* Preview Content */,
 			);
@@ -160,6 +163,7 @@
 				20C89F5C29DF6C0800335F1A /* WebServiceController.swift in Sources */,
 				20C89F4E29DF573A00335F1A /* ContentView.swift in Sources */,
 				20C89F4C29DF573A00335F1A /* WeatheredApp.swift in Sources */,
+				20C89F6629DF9FDC00335F1A /* API.swift in Sources */,
 				20C89F6029DF70C900335F1A /* OpenWeatherMapData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
