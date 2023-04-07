@@ -11,7 +11,10 @@
 		20C89F4E29DF573A00335F1A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C89F4D29DF573A00335F1A /* ContentView.swift */; };
 		20C89F5029DF573B00335F1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20C89F4F29DF573B00335F1A /* Assets.xcassets */; };
 		20C89F5329DF573B00335F1A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20C89F5229DF573B00335F1A /* Preview Assets.xcassets */; };
-		20C89F5A29DF692B00335F1A /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C89F5929DF692B00335F1A /* APIKey.swift */; };
+		20C89F5C29DF6C0800335F1A /* WebServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C89F5B29DF6C0800335F1A /* WebServiceController.swift */; };
+		20C89F5E29DF6D3800335F1A /* OpenWeatherMapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C89F5D29DF6D3800335F1A /* OpenWeatherMapController.swift */; };
+		20C89F6029DF70C900335F1A /* OpenWeatherMapData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C89F5F29DF70C900335F1A /* OpenWeatherMapData.swift */; };
+		20C89F6429DF993000335F1A /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C89F6329DF993000335F1A /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +23,11 @@
 		20C89F4D29DF573A00335F1A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		20C89F4F29DF573B00335F1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20C89F5229DF573B00335F1A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		20C89F5929DF692B00335F1A /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		20C89F5B29DF6C0800335F1A /* WebServiceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceController.swift; sourceTree = "<group>"; };
+		20C89F5D29DF6D3800335F1A /* OpenWeatherMapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherMapController.swift; sourceTree = "<group>"; };
+		20C89F5F29DF70C900335F1A /* OpenWeatherMapData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherMapData.swift; sourceTree = "<group>"; };
+		20C89F6129DF740700335F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		20C89F6329DF993000335F1A /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +60,12 @@
 		20C89F4A29DF573A00335F1A /* Weathered */ = {
 			isa = PBXGroup;
 			children = (
+				20C89F6229DF986D00335F1A /* Models */,
+				20C89F6129DF740700335F1A /* Info.plist */,
 				20C89F4B29DF573A00335F1A /* WeatheredApp.swift */,
 				20C89F4D29DF573A00335F1A /* ContentView.swift */,
-				20C89F5929DF692B00335F1A /* APIKey.swift */,
+				20C89F5D29DF6D3800335F1A /* OpenWeatherMapController.swift */,
+				20C89F6329DF993000335F1A /* API.swift */,
 				20C89F4F29DF573B00335F1A /* Assets.xcassets */,
 				20C89F5129DF573B00335F1A /* Preview Content */,
 			);
@@ -68,6 +78,15 @@
 				20C89F5229DF573B00335F1A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		20C89F6229DF986D00335F1A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				20C89F5F29DF70C900335F1A /* OpenWeatherMapData.swift */,
+				20C89F5B29DF6C0800335F1A /* WebServiceController.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +159,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20C89F5E29DF6D3800335F1A /* OpenWeatherMapController.swift in Sources */,
+				20C89F5C29DF6C0800335F1A /* WebServiceController.swift in Sources */,
 				20C89F4E29DF573A00335F1A /* ContentView.swift in Sources */,
-				20C89F5A29DF692B00335F1A /* APIKey.swift in Sources */,
 				20C89F4C29DF573A00335F1A /* WeatheredApp.swift in Sources */,
+				20C89F6029DF70C900335F1A /* OpenWeatherMapData.swift in Sources */,
+				20C89F6429DF993000335F1A /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +296,7 @@
 				DEVELOPMENT_TEAM = 76SXX9BLLZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = Weathered/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -303,7 +325,7 @@
 				DEVELOPMENT_TEAM = 76SXX9BLLZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = Weathered/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

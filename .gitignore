@@ -90,4 +90,4 @@ fastlane/test_output
 iOSInjectionProject/
 
 # Files
-/Weathered/APIKey.swift
+/Weathered/API.swift

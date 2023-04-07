@@ -20,6 +20,17 @@ struct ContentView: View {
                 .font(.body)
         }
         .padding()
+        .onAppear {
+            OpenWeatherMapController().fetchWeatherData(city: "chicago") { (weather, error) in
+                if let weather = weather {
+                    print(weather)
+                }
+                
+                if let error = error {
+                    print(error)
+                }
+            }
+        }
     }
 }
 
